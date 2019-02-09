@@ -44,9 +44,5 @@ def do_something(a):
   
   display(IPython.display.HTML('<img src="/nbextensions/google.colab/example12345678.jpg" />'))
   
-def main():
-  clear_output()
-  InvokeButton('click me', do_something)
 
-if __name__ == "__main__":
-    main()
+clear_output()
