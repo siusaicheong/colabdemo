@@ -42,8 +42,8 @@ def do_something(a):
   print(o)
   #IMPORTANT: Pay attention quotation marks in a: https://stackoverflow.com/questions/17189237/how-can-i-write-and-append-using-echo-command-to-a-file
   
-  #display(IPython.display.HTML('<img src="/nbextensions/google.colab/example12345678.jpg" />'))
-  display(IPython.display.HTML('<img src="/usr/local/share/jupyter/nbextensions/google.colab/example12345678.jpg" />'))
+  display(IPython.display.HTML('<img src="/nbextensions/google.colab/example12345678.jpg" />'))
+  #display(IPython.display.HTML('<img src="/usr/local/share/jupyter/nbextensions/google.colab/example12345678.jpg" />'))
   
 
 clear_output()
