@@ -1,10 +1,10 @@
-print('Running')
-
 from IPython.display import clear_output
 clear_output()
 
 import IPython
 import uuid
+import os
+
 from google.colab import output
 
 class InvokeButton(object):
@@ -44,5 +44,5 @@ def do_something(a):
   
   display(IPython.display.HTML('<img src="/nbextensions/google.colab/example12345678.jpg" />'))
   
-import os
-InvokeButton('click me', do_something)
+def main():
+  InvokeButton('click me', do_something)
